@@ -1,0 +1,28 @@
+#landingPage {
+    height: 100vh;
+}
+
+#landingPage {
+    position: relative;
+    background-color: blueviolet;
+}
+
+.landingWrapper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+}
+.imgWrapper img {
+    width: 7rem;
+    height: 7rem;
+}
+
+#results {
+    text-align: center;
+}
+
+.myImage {
+    background-color: black;
+}
