@@ -26,3 +26,11 @@
 .myImage {
     background-color: black;
 }
+
+.previousBtn {
+    display: none;
+}
+
+.nextBtn {
+    display: none;
+}
