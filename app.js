@@ -6,6 +6,7 @@ let myImage = document.querySelector(".myImage");
 let resultBox = document.querySelector(".resultBox");
 let previousBtn = document.querySelector(".previousBtn");
 let nextBtn = document.querySelector(".nextBtn");
+let toplinkWrapper = document.querySelector(".toplinkWrapper")
 let offset = 0;
 let dataType;
 
@@ -68,7 +69,7 @@ displayData = (data) => {
 
             nextBtn.style.display = "inline-block";
             previousBtn.style.display = "inline-block";
-
+            toplinkWrapper.style.display = "block";
         }
 
     } else {
@@ -79,6 +80,7 @@ displayData = (data) => {
 
             nextBtn.style.display = "inline-block";
             previousBtn.style.display = "inline-block";
+            toplinkWrapper.style.display = "block";
         }
     }
 

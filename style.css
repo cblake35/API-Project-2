@@ -1,26 +1,61 @@
+.navbar {
+    background: black;
+    border-image-source: linear-gradient(to right, #a529df , #c40d00);
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+
+#navBrand {
+    margin-right: 0;
+    font-size: 25px;
+    background: linear-gradient(to right, #a529df , #c40d00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-container {
+    text-align: center;
+    width: 100%;
+}
+
+.imgWrapper h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.imgWrapper p {
+    font-size: 1.5rem;
+    color: white;
+}
+
 #landingPage {
     height: 100vh;
 }
 
 #landingPage {
     position: relative;
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, #a529df , #c40d00);
 }
 
 .landingWrapper {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -220px;
     text-align: center;
 }
 .imgWrapper img {
-    width: 7rem;
-    height: 7rem;
+    border-radius: 100px;
+    border: black solid 4px;
+    width: 17rem;
+    height: 17rem;
 }
 
 #results {
     text-align: center;
+    background: black;
 }
 
 .myImage {
@@ -29,8 +64,33 @@
 
 .previousBtn {
     display: none;
+    margin: 50px 25px 50px 25px;
 }
 
 .nextBtn {
     display: none;
+    margin: 50px 25px 50px 25px;
+}
+
+.toplinkWrapper {
+    display: none;
+    padding: 0 0 25px 0;
+}
+
+#myFooter {
+    background: black;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    border-image-source: linear-gradient(to right, #a529df , #c40d00);
+    border-top: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+footer {
+    font-size: 16px;
+    background: linear-gradient(to right, #a529df , #c40d00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
