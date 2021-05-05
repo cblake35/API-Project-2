@@ -83,8 +83,6 @@ displayData = (data) => {
             toplinkWrapper.style.display = "block";
         }
     }
-
-
 }
 
 //fetches and displays the next 25 gifs/stickers into the resultBox element
