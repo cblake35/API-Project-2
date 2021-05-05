@@ -1,5 +1,5 @@
 let searchBar = document.querySelector("#search");
-let gifSbmt = document.querySelector("form");
+let myForm = document.querySelector("form");
 let stickerSbmt = document.querySelector("#stickerSbmt");
 let imgWrapper = document.querySelector("#imgWrapper");
 let myImage = document.querySelector(".myImage");
@@ -28,7 +28,7 @@ randomGif = () => {
 randomGif();
 
 //listens to the gif submit button and fetches data to display gifs into the resultBox element
-gifSbmt.addEventListener("submit", (e) => {
+myForm.addEventListener("submit", (e) => {
     e.preventDefault();
     offset = 0;
     dataType = "gifs"

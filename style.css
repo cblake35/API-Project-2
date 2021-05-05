@@ -1,3 +1,7 @@
+body {
+    font-family: 'Josefin Sans', 'Merriweather Sans', sans-serif;
+}
+
 .navbar {
     background: black;
     border-image-source: linear-gradient(to right, #a529df , #c40d00);
@@ -8,12 +12,22 @@
 
 
 #navBrand {
+    font-family: 'Josefin Sans', 'Merriweather Sans', sans-serif;
     margin-right: 0;
     font-size: 25px;
+    font-weight: 700;
     background: linear-gradient(to right, #a529df , #c40d00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+#navBrand:hover {
+    background: linear-gradient(to right, #54df29 , #0096c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .nav-container {
     text-align: center;
@@ -23,11 +37,17 @@
 .imgWrapper h1 {
     font-size: 4rem;
     color: white;
+    font-weight: 800;
+    margin: 0;
+    padding: 20px 0 0 0;
 }
 
 .imgWrapper p {
     font-size: 1.5rem;
     color: white;
+    margin: 0;
+    padding: 0 0 25px 0;
+    line-height: .5;
 }
 
 #landingPage {
@@ -35,6 +55,7 @@
 }
 
 #landingPage {
+    font-family: 'Josefin Sans', 'Merriweather Sans', sans-serif;
     position: relative;
     background-image: linear-gradient(to right, #a529df , #c40d00);
 }
@@ -43,7 +64,7 @@
     position: absolute;
     top: 25%;
     left: 50%;
-    margin-left: -220px;
+    margin-left: -235px;
     text-align: center;
 }
 .imgWrapper img {
@@ -53,7 +74,32 @@
     height: 17rem;
 }
 
+#gifSbmt {
+    background-image: linear-gradient(to bottom, #ffffff , #cacaca);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+#gifSbmt:hover {
+    background: black;
+    color: chartreuse;
+}
+
+#stickerSbmt {
+    background-image: linear-gradient(to bottom, #ffffff , #cacaca);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+#stickerSbmt:hover {
+    background: black;
+    color: chartreuse;
+}
+
 #results {
+    font-family: 'Josefin Sans', 'Merriweather Sans', sans-serif;
     text-align: center;
     background: black;
 }
@@ -64,17 +110,44 @@
 
 .previousBtn {
     display: none;
-    margin: 50px 25px 50px 25px;
+    margin: 50px 25px 25px 25px;
+    background-image: linear-gradient(to bottom, #ffffff , #cacaca);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #949494;
+}
+
+.previousBtn:hover {
+    background-image: linear-gradient(to right, #a529df , #c40d00);
+    color: white;
 }
 
 .nextBtn {
     display: none;
-    margin: 50px 25px 50px 25px;
+    margin: 50px 25px 25px 25px;
+    background-image: linear-gradient(to bottom, #ffffff , #cacaca);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #949494;
+}
+
+.nextBtn:hover {
+    background-image: linear-gradient(to right, #a529df , #c40d00);
+    color: white;
 }
 
 .toplinkWrapper {
     display: none;
     padding: 0 0 25px 0;
+}
+
+.toplinkWrapper a {
+    text-decoration: none;
+    color:  #a529df;
+}
+
+.toplinkWrapper a:hover {
+    color: chartreuse;
 }
 
 #myFooter {
@@ -89,6 +162,7 @@
 }
 
 footer {
+    font-family: 'Josefin Sans', 'Merriweather Sans', sans-serif;
     font-size: 16px;
     background: linear-gradient(to right, #a529df , #c40d00);
     -webkit-background-clip: text;
